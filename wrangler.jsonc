@@ -1,0 +1,7 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "portal-os1-rabbit-worker",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-10-26",
+  "observability": {"enabled": true}
+}

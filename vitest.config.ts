@@ -1,0 +1,2 @@
+import { defineConfig } from 'vitest/config';
+export default defineConfig({ test: { coverage: { provider: 'v8', include: ['src/**/*.ts'], thresholds: { statements: 80, branches: 80, functions: 80, lines: 80, 'src/security/auth.ts': { statements: 100, branches: 100, functions: 100, lines: 100 }, 'src/security/permissions.ts': { statements: 100, branches: 100, functions: 100, lines: 100 }, 'src/index.ts': { statements: 100, branches: 100, functions: 100, lines: 100 } } } } });
